@@ -3,7 +3,7 @@ import React from "react";
 const HeroHeading = ({ text, custom }) => {
   return (
     <h1
-      className={`flex justify-center items-center font-serif text-color-herotext tracking-wide max-[380px]:text-xl text-[25px] pt-25 sm:text-5xl md:text-4xl lg:text-5xl xl:text-4xl 2xl:text-6xl text-center sm:w-4/5 max-[380px]:leading-10 leading-12 md:leading-16 lg:leading-18 xl:leading-18 2xl:leading-28
+      className={`flex justify-center items-center font-serif font-extrabold text-h1-mobile md:text-h1-tablet xl:text-h1-laptop 2xl:text-h1-large text-color-herotext leading-9 md:leading-12 pt-25 text-center uppercase sm:w-4/5
               transition-all duration-700 ease-out ${custom}`}
       style={{ transitionDelay: "100ms" }}
     >

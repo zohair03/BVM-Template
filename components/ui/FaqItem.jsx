@@ -2,7 +2,7 @@ import FaqItemContent from "./FaqItemContent";
 
 const FaqItem = ({ faq, isOpen, onToggle, customAns, customQus }) => (
   <div
-    className={`px-2 py-2 md:px-2 md:py-2 mb-0 cursor-pointer transition-all duration-700 ease-out transform`}
+    className={`px-2 py-4 md:px-2 md:py-4 mb-0 border-b border-white cursor-pointer transition-all duration-700 ease-out transform`}
     onClick={onToggle}
   >
     <div className="flex justify-between items-start gap-4">

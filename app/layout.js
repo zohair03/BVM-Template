@@ -1,4 +1,4 @@
-import { Bitcount_Single, Boldonse, Roboto, Playfair_Display, Montserrat, Poppins } from "next/font/google";
+import { Roboto, Playfair_Display, Montserrat, Poppins } from "next/font/google";
 import "./globals.css";
 import BusinessInfo from "@/cms/business Info/businessInfo";
 import Navbar from "@/components/sections/navbarSection/navbar";
@@ -30,19 +30,6 @@ const roboto = Roboto({
   display: 'swap',
 })
 
-const bitcountSingle = Bitcount_Single({
-  subsets: ['latin'],
-  weight: 'variable',
-  variable: '--font-bitcount-single',
-  display: 'swap',
-})
-
-const boldonse = Boldonse({
-  subsets: ['latin'],
-  weight: '400',
-  variable: '--font-boldonse',
-  display: 'swap',
-})
 
 export const viewport = {
   width: 'device-width',
@@ -57,7 +44,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${roboto.variable} ${bitcountSingle.variable} ${boldonse.variable} ${playfair.variable} ${montserrat.variable} ${poppins.variable} antialiased`} suppressHydrationWarning>
+      <body className={`${roboto.variable} ${playfair.variable} ${montserrat.variable} ${poppins.variable} antialiased`} suppressHydrationWarning>
         <Navbar/>
         {children}
         <Footer/>

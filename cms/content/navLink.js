@@ -16,13 +16,13 @@ export const aboutLinks = [
   {
     title: "Meet our Team",
     description: "Explore Our Repair Gallery: Before & After Transformations",
-    image: "bg-[url('/images/rn-infotech-70.webp')]",
+    image: "bg-[url('/images/image10.webp')]",
     href: "/#",
   },
   {
     title: "Reviews",
     description: "Explore Our Repair Gallery: Before & After Transformations",
-    image: "bg-[url('/images/image8.webp')]",
+    image: "bg-[url('/images/image2.webp')]",
     href: "/#",
   },
 ];
@@ -34,7 +34,7 @@ export const privacyPolicy = {
 export const navLinks = [
   { title: "Home", href: "/" },
   { title: "About Us", href: "/", mega: "about" },
-  { title: "Service", href: "/", mega: "services" },
+  { title: "Services", href: "/", mega: "services" },
   { title: "Gallery", href: "/" },
   { title: "Contact Us", href: "/" },
 ];

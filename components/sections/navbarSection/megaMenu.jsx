@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
-import H4 from "../../ui/texts/H4";
+import H2 from "../../ui/texts/H2";
 import PrimaryBtn from "../../ui/buttons/primaryBtn";
 
 
@@ -46,7 +46,7 @@ const MegaMenu = ({
         {/* Header */}
         <div className="flex flex-col gap-2 text-center items-center w-fit">
           <div className="flex flex-col items-center xl:items-start gap-1 md:gap-1 lg:gap-0">
-            <H4 text={content.heading} custom="xl:text-left! xl:text-2xl" />
+            <H2 text={content.heading} custom="xl:text-left! font-extrabold!" />
           </div>
         </div>
         {/* Content */}
@@ -79,7 +79,7 @@ const MegaMenu = ({
                 {/* image */}
                 <div className={`${item.image} bg-cover bg-center flex-shrink-0 w-[95px] h-[110px] relative rounded-md overflow-hidden`}></div>
                 <div className="flex flex-col gap-1">
-                  <h4 className="font-serif text-left text-gray-900 text-sm uppercase">
+                  <h4 className="font-serif text-left text-gray-900 font-bold leading-snug uppercase text-h4-mobile md:text-h4-tablet xl:text-h4-laptop 2xl:text-h4-large">
                     {item.title}
                   </h4>
                   <p className="text-gray-700 font-sans text-sm leading-5">

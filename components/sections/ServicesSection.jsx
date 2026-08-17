@@ -3,7 +3,7 @@ import PrimaryBtn from "../ui/buttons/primaryBtn";
 import Label from "../ui/texts/Label";
 import H2 from "../ui/texts/H2";
 import { ServicesContent } from "../../cms/content/content";
-import H4 from "../ui/texts/H4";
+import H3 from "../ui/texts/H3";
 
 const ServicesSection = () => {
   return (
@@ -45,7 +45,7 @@ const ServicesSection = () => {
             <div className={`${card.image} bg-cover bg-center flex-shrink-0 rounded-2xl w-full md:w-[250px] lg:w-[40%] xl:w-[35%] h-[170px] md:h-[180px] xl:h-[95%]`}></div>
             <div className="relative xl:w-1/2 z-10 flex flex-col gap-2 md:gap-3 items-center justify-center md:items-start">
               <div className="flex flex-col items-center xl:items-start gap-1 md:gap-1 lg:gap-0">
-                <H4
+                <H3
                   text={card.title}
                   custom="xl:text-left!"
                 />

@@ -14,7 +14,7 @@ const WhyCardContent = ({ card }) => (
       />
     </div>
     <div className="flex flex-col gap-3 items-start">
-      <H4 text={card.heading} custom=" text-base! tracking-wide"/>
+      <H4 text={card.heading} custom="text-lg! md:text-xl! xl:text-2xl!"/>
       <p className="max-[380px]:text-sm text-color-bodytext/80 text-base w-95/100 md:text-lg lg:text-xl xl:text-lg 2xl:text-xl">
         {card.text}
       </p>

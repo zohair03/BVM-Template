@@ -1,6 +1,6 @@
 const FaqItemContent = ({ faq, isOpen, customQus, customAns }) => (
   <div className="flex flex-col">
-    <p className={`font-bold font-sans max-[380px]:text-lg text-xl leading-relaxed md:text-2xl md:leading-12 text-gray-800 ${customQus}`}>
+    <p className={`font-bold uppercase font-sans max-[380px]:text-lg text-xl md:text-2xl leading-snug text-gray-800 ${customQus}`}>
       {faq.question}
     </p>
     <div

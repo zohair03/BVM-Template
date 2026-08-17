@@ -114,7 +114,7 @@ const FooterForm = () => {
       <div className="bg-white relative flex flex-col gap-5 items-start w-full xl:w-[40%] border border-black/10 rounded-3xl p-6 md:p-8">
         <div className="flex flex-col gap-5 w-full">
           <div className="flex flex-col gap-3">
-            <h3 className="font-serif text-xl md:text-2xl 2xl:text-3xl text-black">
+            <h3 className="font-serif font-extrabold leading-snug uppercase text-h3-mobile md:text-h3-tablet xl:text-h3-laptop 2xl:text-h3-large text-black">
               Send Us A Message
             </h3>
           </div>
