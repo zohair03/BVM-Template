@@ -9,6 +9,8 @@
   --font-sans: var(--font-poppins), monospace;
   --font-serif: var(--font-poppins);
 
+/* Below are the tailwind css variables start generating new color and please ignore the current colors */
+
   --color-primary: #fd0606;
   --color-secondary: #6bcbff;
 
@@ -44,36 +46,43 @@
   --color-topbar-text: #ffffff;
   --color-topbar-text-hover: var(--color-footer-text-hover);
   --color-topbar-icon: brightness(0) invert(1);
-  --color-topbar-icon-hover: brightness(0) saturate(100%) invert(84%) sepia(45%)
-    saturate(1966%) hue-rotate(184deg) brightness(101%) contrast(101%); /* this color should be same as --color-topbar-text-hover*/
+  --color-topbar-icon-hover: brightness(0) invert(1); /* generate color filter same as --color-topbar-text-hover*/
   --color-topbar-menuicon: #ffffff;
 
-  --color-navbar-color-after-scroll: #ffffff;/* this color is of navbar after user scrolls the page it changes, it should be light color */
+  --color-navbar-color-after-scroll: #ffffff;/* this color is of navbar after user scrolls the page it changes, it should be same as --color-megamenu color */
   --color-navbar-link: #ffffff;
   --color-navbar-link-hover: #6bcbff;
   --color-navbar-link-after-scroll: #000000;/* this color is of navbar link when user scroll as the color of navbar changes */
   --color-navbar-link-after-scroll-hover: #000000;
   --color-mobile-navbar-link: #000000;
 
+  --color-megamenu: #6bcbff;/* Should be light logo as text over this bg is black */
+
   --color-icon-primary: brightness(0) saturate(100%) invert(13%) sepia(95%)
     saturate(7181%) hue-rotate(359deg) brightness(97%) contrast(106%);
-  --color-why-card-icon-bg: #111827; /* this color needs to be darker vesion of parimary color */
-  --color-why-card-icon: brightness(0) invert(1); /* and this will be white color then */
+  --color-why-card-icon-bg: #111827; /* generate darker vesion of parimary color */
+  --color-why-card-icon: brightness(0) invert(1); /* this should be dark color then */
 
-  --color-plus-icon: #ffffff;
+  --color-plus-icon: #ffffff; /* change this color according to primary color. It should be visible*/
   --color-plus-bg: var(--color-primary);
+
+  --color-finalcta-bg: #000000;/* should be darker color as text over it is white*/
 
   --color-footer-form-bg: #f8f9f9;
   --color-footer-form-text: #000000;
   --color-footer-form-icon: brightness(0) invert(0);
   --color-footer-form-placeholder-border: #374151;
 
-  --color-footer-bg: #050810;
+  --color-footer-bg-gradient: #050810;/*it is top gradient color*/
+  --color-footer-bg: #050810;/*this is bottom gradient color as color is going form bottom to top*/
   --color-footer-text: #9ca3af;
   --color-footer-text-hover: #6bcbff;
 
-  --color-section-bg: #fafafa;/* this should be light color */
+  --color-section-bg: #fafafa;
 
+/* This is the end of the tailwind css colors variables. Do not change any other styles in this file other these */
+
+/* Do not change these as it will break the responsiveness of the website */
   /* --- Mobile Screens (approx 60% of base) --- */
   --text-h1-mobile: 2rem;
   --text-h2-mobile: 2rem;

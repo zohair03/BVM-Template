@@ -33,8 +33,8 @@ const Reviews = () => {
             </div>
           </div>
           <div className="flex flex-col w-[80%] gap-3 md:flex-row md:w-fit justify-center">
-            <PrimaryBtn btnText={TestimonialsContent.btnText} />
-            <PrimaryBtn btnText={TestimonialsContent.btnText} />
+            <PrimaryBtn btnText={TestimonialsContent.btnText} href={TestimonialsContent.href}/>
+            <PrimaryBtn btnText={TestimonialsContent.btnText} href={TestimonialsContent.href2}/>
           </div>
         </div>
 

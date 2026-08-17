@@ -24,7 +24,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-black/50 z-[1]" />
 
       {/* Hero content */}
-      <div className="relative z-10 flex flex-col items-center justify-center gap-4 md:gap-6">
+      <div className="relative z-10 flex flex-col items-center justify-center gap-6">
         <HeroHeading
           text={hero.heading}
           custom={`${isMounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}

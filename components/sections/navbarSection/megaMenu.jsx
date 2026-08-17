@@ -42,7 +42,7 @@ const MegaMenu = ({
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
     >
-      <div className="bg-secondary w-[25%] flex flex-col gap-4 lg:gap-5 p-10">
+      <div className="bg-megamenu w-[25%] flex flex-col gap-4 lg:gap-5 p-10">
         {/* Header */}
         <div className="flex flex-col gap-2 text-center items-center w-fit">
           <div className="flex flex-col items-center xl:items-start gap-1 md:gap-1 lg:gap-0">
@@ -79,10 +79,10 @@ const MegaMenu = ({
                 {/* image */}
                 <div className={`${item.image} bg-cover bg-center flex-shrink-0 w-[95px] h-[110px] relative rounded-md overflow-hidden`}></div>
                 <div className="flex flex-col gap-1">
-                  <h4 className="font-serif text-left text-gray-900 font-bold leading-snug uppercase text-h4-mobile md:text-h4-tablet xl:text-h4-laptop 2xl:text-h4-large">
+                  <h4 className="font-serif text-left text-black font-bold leading-snug uppercase text-h4-mobile md:text-h4-tablet xl:text-h4-laptop 2xl:text-h4-large">
                     {item.title}
                   </h4>
-                  <p className="text-gray-700 font-sans text-sm leading-5">
+                  <p className="text-black/90 font-sans text-base leading-normal">
                     {item.description}
                   </p>
                 </div>

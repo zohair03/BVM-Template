@@ -35,7 +35,7 @@ export const MarqueeText = [
 export const WelcomeContent = {
     label: "Welcome",
     heading: "About Apex Computer Inc",
-    description: "Apex Computer Inc operates in the Repair Services industry, proudly serving the Norcross, GA community. We specialize in repairing all kinds of computers and laptops, including Apple products. Beyond computers, our expertise extends to gaming consoles—we expertly repair PS3, PS4, Xbox 360, Xbox One, Wii, and Wii U systems. Whether you need a new computer, a used notebook, a custom gaming PC, or server and networking services, our team is equipped to provide top-notch solutions. We also offer responsible recycle and disposal services for your old electronics.",
+    description: "Apex Computer Inc operates in the Repair Services industry, proudly serving the Norcross, GA community. We specialize in repairing all kinds of computers and laptops, including Apple products. Beyond computers, our expertise extends to gaming consoles—we expertly repair PS3, PS4, Xbox 360, Xbox One, Wii, and Wii U systems. Whether you need a new computer, a used notebook, a custom gaming PC, or server and networking services, our team is equipped to provide top-notch solutions. We also offer responsible recycle and disposal services for your old electronics.",// generate content under 620 characters
 }
 
 export const AboutUsContent = {
@@ -59,28 +59,28 @@ export const WhyChooseUsContent = {
             //The Value of Integrity content goes here
             id: 1,
             icon: "/icons/integrity.svg",
-            heading: "Integrity",
+            heading: "Integrity",// you should generate this heading
             text: "From Macs and PCs to PlayStation and Xbox consoles, our technicians can fix almost any device.",
             linkText: "button text goes here",
-            href: "/",
+            href: "/",// do not change this url
         },
         {
             //The Value of Progress content goes here
             id: 2,
             icon: "/icons/progress.svg",
-            heading: "Progress",
+            heading: "Progress",// you should generate this heading
             text: "Local & Reliable: Located conveniently in Norcross, GA, we provide honest diagnostics and fair pricing to our community.",
             linkText: "button text goes here",
-            href: "/",
+            href: "/",// do not change this url
         },
         {
             //The Value of Quality content goes here
             id: 3,
             icon: "/icons/workspace_premiu.svg",
-            heading: "Quality",
+            heading: "Quality",// you should generate this heading
             text: "Complete IT Solutions: Offering everything from networking services to new and used computer sales and responsible recycling.",
             linkText: "button text goes here",
-            href: "/",
+            href: "/",// do not change this url
         },
     ],
     cards2: [
@@ -88,28 +88,28 @@ export const WhyChooseUsContent = {
             //The Value of Partnership content goes here
             id: 1,
             icon: "/icons/partnership.svg",
-            heading: "Partnership",
+            heading: "Partnership",// you should generate this heading
             text: "Broad Expertise: From Macs and PCs to PlayStation and Xbox consoles, our technicians can fix almost any device.",
             linkText: "button text goes here",
-            href: "/",
+            href: "/",// do not change this url
         },
         {
             //The Value of Adaptability content goes here
             id: 2,
             icon: "/icons/adaptability.svg",
-            heading: "Adaptability",
+            heading: "Adaptability",// you should generate this heading
             text: "Local & Reliable: Located conveniently in Norcross, GA, we provide honest diagnostics and fair pricing to our community.",
             linkText: "button text goes here",
-            href: "/",
+            href: "/",// do not change this url
         },
         {
             //The Value of Return on Investment content goes here
             id: 3,
             icon: "/icons/roi.svg",
-            heading: "Return On Investment",
+            heading: "Return On Investment",// you should generate this heading
             text: "Complete IT Solutions: Offering everything from networking services to new and used computer sales and responsible recycling.",
             linkText: "button text goes here",
-            href: "/",
+            href: "/",// do not change this url
         },
     ],
 }
@@ -125,55 +125,55 @@ export const ServicesContent = {
             id: "01",
             title: "Computer & Mac Repairs",
             description:
-                "Comprehensive diagnostic and repair services for laptops, desktops, and Apple computers. We handle hardware fixes and software troubleshooting.",
+                "Comprehensive diagnostic and repair services for laptops, desktops, and Apple computers. We handle hardware fixes and software troubleshooting.", // generate content under 120 characters
             image: "bg-[url('/images/image1.webp')]",
             btnText: "Computer Repairs",
-            href: "/name-of-service",
+            href: "/",// do not change this url
         },
         {
             id: "02",
             title: "Gaming Console Repair",
             description:
-                "Expert repairs for PS3, PS4, Xbox 360, Xbox One, Wii, and Wii U. Get back to gaming quickly with our reliable console fixes.",
+                "Expert repairs for PS3, PS4, Xbox 360, Xbox One, Wii, and Wii U. Get back to gaming quickly with our reliable console fixes.",// generate content under 120 characters
             image: "bg-[url('/images/image2.webp')]",
             btnText: "Console Repair",
-            href: "/name-of-service",
+            href: "/",// do not change this url
         },
         {
             id: "03",
             title: "New & Used Computers",
             description:
-                "Looking to buy? We offer a great selection of high-quality new and used computers, notebooks, and gaming PCs to fit your needs.",
+                "Looking to buy? We offer a great selection of high-quality new and used computers, notebooks, and gaming PCs to fit your needs.",// generate content under 120 characters
             image: "bg-[url('/images/image3.webp')]",
             btnText: "Shop Computers",
-            href: "/name-of-service",
+            href: "/",// do not change this url
         },
         {
             id: "04",
             title: "Networking Services",
             description:
-                "Reliable setup and troubleshooting for home and business networks, including routers, servers, and secure connections.",
+                "Reliable setup and troubleshooting for home and business networks, including routers, servers, and secure connections.",// generate content under 120 characters
             image: "bg-[url('/images/image4.webp')]",
             btnText: "Networking",
-            href: "/name-of-service",
+            href: "/",// do not change this url
         },
         {
             id: "05",
             title: "Server & IT Support",
             description:
-                "Professional server maintenance and IT support tailored for small businesses and home offices in the Norcross area.",
+                "Professional server maintenance and IT support tailored for small businesses and home offices in the Norcross area.",// generate content under 120 characters
             image: "bg-[url('/images/image5.webp')]",
             btnText: "IT Support",
-            href: "/name-of-service",
+            href: "/",// do not change this url
         },
         {
             id: "06",
             title: "Recycle & Disposalzzz",
             description:
-                "Eco-friendly recycling and disposal services for your old electronics, computers, and obsolete networking equipment.",
+                "Eco-friendly recycling and disposal services for your old electronics, computers, and obsolete networking equipment.",// generate content under 120 characters
             image: "bg-[url('/images/image6.webp')]",
             btnText: "Recycling Services",
-            href: "/name-of-service",
+            href: "/",// do not change this url
         },
     ],
     btnText: "Button text goes here",
@@ -185,7 +185,9 @@ export const TestimonialsContent = {
     heading: "What Our Customers Say",
     subtitle: "Trusted by clients throughout Norcross, Georgia and surrounding areas",
     btnText: "Button text goes here",
+    btnText2: "Button text goes here",
     href: "/",
+    href2: "/",
     cards: [
         {
             id: 1,
@@ -252,6 +254,11 @@ export const FaqsContent = {
         },
         {
             id: 4,
+            question: "Can I bring in old electronics for recycling?",
+            answer: "Yes, we offer recycle and disposal services to safely process your old computers and networking equipment.",
+        },
+        {
+            id: 5,
             question: "Can I bring in old electronics for recycling?",
             answer: "Yes, we offer recycle and disposal services to safely process your old computers and networking equipment.",
         },

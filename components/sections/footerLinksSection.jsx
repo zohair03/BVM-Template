@@ -159,7 +159,7 @@ const servicesLinks1 = [
 
 const FooterLinks = () => {
   return (
-    <footer className="relative overflow-hidden bg-gradient-to-t from-footer-bg via-footer-bg to-[#071a40] text-white font-sans">
+    <footer className="relative overflow-hidden bg-gradient-to-t from-footer-bg via-footer-bg to-footer-bg-gradient text-white font-sans">
       {/* Floating orbs */}
       <div className="floating-orb floating-orb-1 top-[20%] left-[5%] opacity-50" />
       <div className="floating-orb floating-orb-3 bottom-[15%] right-[8%] opacity-40" />
